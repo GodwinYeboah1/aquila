@@ -1,7 +1,6 @@
 <?php
 /**
  * 
- * 
  * @Pakage Aquila
  */
 ?>
@@ -22,4 +21,7 @@
             wp_body_open();
         }
     ?>
-<header>header</header>
+<header>header
+
+<p>g</p>
+</header>
