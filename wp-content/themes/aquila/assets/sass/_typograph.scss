@@ -1,0 +1,18 @@
+// import variables
+@import './variables';
+
+
+// Base styles 
+body {
+    font-size: $font-size-h5;
+}
+
+h3 {
+    font-size: $font-size-h3;
+    color: $color-blue;
+}
+
+.position-relative {
+    height: 95vh;
+    border: 1px solid;
+}
