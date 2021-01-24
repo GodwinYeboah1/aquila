@@ -23,8 +23,8 @@
         }
     ?>
 <div id="page" class="site">
+
     <header id="masthead" class="site-header" role="banner">
         <?php get_template_part('template-parts/menus/nav'); ?>
     </header>
-    <div id="content" class="site-content">
-    <?php get_template_part('template-parts/contents', 'page'); ?>
+    <div class="main-container">

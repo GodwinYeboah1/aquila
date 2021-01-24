@@ -1,23 +1,27 @@
 // footer styles 
 .footer {
-    // position: absolute;
-    // top: 84vh;
-    // width: 100%;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
+
+    height: 100px;
+    background-color: #f8f9fa!important;
 
     &-container {
         display: flex;
         border: 1px solid green;
-       
     }
+    
     .container {
-        // padding: 0;
-        // margin: 0;
-        // width: 100%;
-        // max-width: 99%;
-        max-width: 99%;
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+        // 
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-self: center;
+        align-content: center;
     }
     &-nav {
         &__item {
@@ -25,4 +29,9 @@
             list-style: none;
         }
     }
+}
+// create space
+.main-container .container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
