@@ -1,0 +1,55 @@
+// Richmond card styles 
+// import variables
+@import '../variables';
+
+.richmond {
+    &-card {
+
+        // elements 
+        &__title {
+            font-size: $font-size-h1;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            // pay attention to the border
+            // border: 1px solid yellow;
+           // modifiers 
+           &--red {
+               color: $color-red;
+            }
+        }
+
+        &__password-title {
+            // modifiers 
+        }
+    }
+}
+
+// media queries 
+// @media only screen and (min-width: 600px) {
+
+//     .richmond-card {
+//         &__title {
+//             font-size: $font-size-h5;
+//               // pay attention to the border
+//               border: 1px solid black;
+//             &--red {
+//                 color: $color-green;
+//             }
+//         }
+//     }
+// }   
+
+
+// // media queries 
+// @media only screen and (min-width: 800px) {
+
+//     .richmond-card {
+//         &__title {
+//             font-size: $font-size-h3;
+//               // pay attention to the border
+//               border: 1px solid $color-green;
+//             &--red {
+//                 color: $color-green;
+//             }
+//         }
+//     }
+// } 

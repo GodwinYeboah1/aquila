@@ -19,7 +19,7 @@ function aquila_enqueue_scripts(){
     wp_enqueue_style('stylesheet', get_stylesheet_uri(), [], filemtime( get_template_directory() . '/style.css'), 'all');
     wp_enqueue_script('main-js', get_template_directory_uri() .'/assets/main.js', [], filemtime( get_template_directory() . '/assests/main.js'), 'true');
     
-    // main css 
+    // sass gets compile to css 
     wp_enqueue_style('sass-css', get_template_directory_uri() .'/assets/dist/css/styles.css','true');
     //  bootstrap 
     wp_enqueue_style('bootstrap-css', get_template_directory_uri() .'/assets/src/library/css/bootstrap.min.css','true');

@@ -7,8 +7,6 @@
  */
 
 get_header();?>
-
-<div class="container">content</div>
-
-<?php
-get_footer();
+<!-- List componets below  -->
+<?php get_template_part('template-parts/componets/richmond-preview');?>
+<?php get_template_part('template-parts/componets/promo-container'); ?>

@@ -15,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head(); ?>
 </head>
-<body  <?php body_class('position-relative'); ?>>
+<body  <?php body_class(''); ?>>
 <!-- check for backward compatiabilty  -->
     <?php
         if (function_exists('wp_body_open')){
@@ -24,7 +24,7 @@
     ?>
 <div id="page" class="site">
     <header id="masthead" class="site-header" role="banner">
-        <?php get_template_part('template-parts/header/nav'); ?>
+        <?php get_template_part('template-parts/menus/nav'); ?>
     </header>
     <div id="content" class="site-content">
-    <?php get_template_part('template-parts/content', 'page'); ?>
+    <?php get_template_part('template-parts/contents', 'page'); ?>

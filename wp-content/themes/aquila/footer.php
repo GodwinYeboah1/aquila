@@ -6,8 +6,8 @@
  */
 ?>
 
-<footer class="footer">
-    <div class="container">
+<footer class="">
+    <!-- <div class="container">
         <div class="row footer-container">
         
                 <div class="col-md-6 col-sm-12">
@@ -23,7 +23,7 @@
                 </div>
             
         </div>
-    </div>    
+    </div>     -->
 </footer>
 </div>
 </div>
