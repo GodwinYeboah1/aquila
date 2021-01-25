@@ -27,3 +27,13 @@ function aquila_enqueue_scripts(){
 }
 
 add_action('wp_enqueue_scripts', 'aquila_enqueue_scripts');
+
+// Theme support 
+add_theme_support('menus');
+register_nav_menus(
+
+    array(
+        'top-menu'=> "Top menu Location",
+        'mobile-menu'=> "Mobile Menu Location",
+    )
+);

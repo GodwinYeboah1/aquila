@@ -8,7 +8,7 @@
 
 <!-- Adding the block title componet -->
 
-<?php get_template_part('template-parts/blocks/contactUs', 'title'); ?>
+<!-- <php get_template_part('template-parts/blocks/contactUs', 'title'); ?> -->
 
 
 <!-- Form contact template -->
